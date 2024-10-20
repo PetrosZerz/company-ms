@@ -1,0 +1,13 @@
+[server]
+port = 8080
+
+[database]
+host = "mongodb"
+environment = "localhost:27017"
+name = "company_db"
+user = "root"
+password = "mongopassword"
+
+[Kafka]
+host = "localhost"
+port = "9092"
